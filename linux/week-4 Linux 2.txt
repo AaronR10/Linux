@@ -1,0 +1,10 @@
+﻿! root          511 tty7   /usr/bin/qubes-gui
+! root          583 tty7   /usr/bin/qubes-gui-runuser user /bin/sh -l -c exec /usr/bin/xinit /etc/X11/Xsession qubes-session -- /usr/lib/xorg/Xorg :0 -nolisten tcp vt07 -wr -config xorg-qubes.conf > ~/.xsession-errors 2>&1
+! root         6738 pts/0  /bin/sh /usr/sbin/chkrootkit -x
+! root         7165 pts/0  ./chkutmp
+! root         7167 pts/0  ps axk tty,ruser,args -o tty,pid,ruser,args
+! root         7166 pts/0  sh -c ps axk "tty,ruser,args" -o "tty,pid,ruser,args"
+! root         6736 pts/0  sudo chkrootkit -x
+! user         4944 pts/0  bash
+chkutmp: nothing deleted
+not infected

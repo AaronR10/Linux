@@ -1,0 +1,24 @@
+﻿Suggestions (33):
+  ----------------------------
+  * Install libpam-usb to enable multi-factor authentication for PAM sessions [CUST-0285]
+      https://your-domain.example.org/controls/CUST-0285/
+
+
+  * Install needrestart, alternatively to debian-goodies, so that you can run needrestart after upgrades to determine which daemons are using old versions of libraries and need restarting. [CUST-0831]
+      https://your-domain.example.org/controls/CUST-0831/
+
+
+  * Copy /etc/fail2ban/jail.conf to jail.local to prevent it being changed by updates. [DEB-0880]
+      https://cisofy.com/controls/DEB-0880/
+
+
+  * Set a password on GRUB bootloader to prevent altering boot configuration (e.g. boot in single user mode without password) [BOOT-5122]
+      https://cisofy.com/controls/BOOT-5122/
+
+
+  * Check the output of ps for dead or zombie processes [PROC-3612]
+      https://cisofy.com/controls/PROC-3612/
+
+
+  * Install a PAM module for password strength testing like pam_cracklib or pam_passwdqc [AUTH-9262]
+      https://cisofy.com/controls/AUTH-9262/
